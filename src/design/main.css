@@ -28,8 +28,11 @@ body { width: 100%; font: 12px/14px Verdana, Geneva, Arial, Helvetica, sans-seri
 
 .cleaner { margin: 0; padding: 0; clear: both; font-size: 1px; height: 1px; line-height: 1px; background: none transparent scroll repeat 0% 0%; border: none; }
 .left { float: left; }
+.left img { margin: 0.5em 1em 0.5em 0; }
 .right { float: right; }
-.center { text-align: center; margin-left: auto; margin-right: auto; width: 100%; overflow: hidden; }
+.right img { margin: 0.5em 0 0.5em 1em; }
+.center { text-align: center; margin-left: auto; margin-right: auto; width: 518px; overflow: hidden; }
+.center img { margin: 0.5em 0; }
 .l { text-align: left; }
 .r { text-align: right; }
 .c { text-align: center; }
@@ -76,10 +79,10 @@ body>#footer { position: fixed; }
 #pages h2.title { border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
 
 
-#pages .page h3.title { margin: 10px; padding: 0 0 0 40px; width: 260px; height: 28px; font-size: 18px; line-height: 28px; z-index: 2; font-size: 100%; outline: none; display: block; font-weight: bold; text-decoration: none; text-align: left; cursor: pointer; background: url(menu.gif) no-repeat 0 0; }
+#pages .page h3.title { margin: 10px; padding: 0 0 0 40px; width: 170px; height: 28px; font-size: 18px; line-height: 28px; z-index: 2; font-size: 100%; outline: none; display: block; font-weight: bold; text-decoration: none; text-align: left; cursor: pointer; background: url(menu.gif) no-repeat 0 0; }
 #pages .page h3.title.current { color: #009ADE; background: url(menu_current.gif) no-repeat 0 0; }
 #pages .page h3.title:hover, #pages .page h3.title.hover { color: #FF0000; background: url(menu_hover.gif) no-repeat 0 0; }
-#pages .page .menu { display: none; position: absolute; top: 0; left: 320px; width: 460px; padding: 0 10px 0 0; height: 370px; overflow: auto; }
+#pages .page .menu { display: none; position: absolute; top: 0; left: 240px; width: 535px; padding: 0 10px 0 0; height: 360px; overflow: auto; }
 * html #pages .page .menu { height: 355px; }
 
 
