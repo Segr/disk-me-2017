@@ -68,10 +68,10 @@ body>#footer { position: fixed; }
 #footer #city { float: left; }
 
 /* tabs */
-#pages h2.title { position: absolute; top: 180px; left: 0; margin: 0 10px; padding: 5px 2px; letter-spacing: 1px; width: 360px; z-index: 2; font-size: 110%; outline: none; display: block; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; }
+#pages h2.title { position: absolute; top: 180px; left: 0; margin: 0 10px; padding: 5px 2px; color: #009ADE; background: #FFFFFF; border: 1px solid #FFFFFF; letter-spacing: 1px; width: 360px; z-index: 2; font-size: 110%; outline: none; display: block; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; letter-spacing: 4px; }
 #pages #page_2 h2.title { left: 395px; }
-#pages h2.title.current { color: #009ADE; background: #FFFFFF; border: 1px solid #77BFF5; }
-#pages h2.title:hover, #pages h2.title.hover { color: #FFFFFF; background: #77BFF5; }
+#pages h2.title.current { color: #FFFFFF; background: #fda200; border: 1px solid #fda200; }
+#pages h2.title:hover, #pages h2.title.hover { color: #FF0000; background: #fda200; border: 1px solid #fda200; }
 
 #pages .page { display: none; position: absolute; top: 220px; left: 0; }
 
@@ -79,7 +79,7 @@ body>#footer { position: fixed; }
 
 
 #pages .page h3.title { margin: 10px; padding: 0 0 0 40px; width: 170px; height: 28px; font-size: 18px; line-height: 28px; z-index: 2; font-size: 100%; outline: none; display: block; font-weight: bold; text-decoration: none; text-align: left; cursor: pointer; background: url(menu.gif) no-repeat 0 0; }
-#pages .page h3.title.current { color: #009ADE; background: url(menu_current.gif) no-repeat 0 0; }
+#pages .page h3.title.current { color: #fda200; background: url(menu_current.gif) no-repeat 0 0; }
 #pages .page h3.title:hover, #pages .page h3.title.hover { color: #FF0000; background: url(menu_hover.gif) no-repeat 0 0; }
 #pages .page .menu { display: none; position: absolute; top: 0; left: 240px; width: 535px; padding: 0 10px 0 0; height: 360px; overflow: auto; }
 * html #pages .page .menu { height: 355px; }
