@@ -96,7 +96,7 @@ body>#footer { position: fixed; }
 a.banner { position: absolute; top: 225px; left: 70px; }
 span.num { font-weight: normal; font-size: 130%; }
 
-div.file { margin-bottom: 3px; padding-left: 20px; background: url(icons/default.gif) no-repeat 0 0; padding-bottom: 8px; }
+div.file { margin: 9px 0 3px 0; padding-left: 20px; background: url(icons/default.gif) no-repeat 0 0; padding-bottom: 8px; }
 div.file span { white-space: nowrap; }
 div.file.avi,
 div.file.wmv { background: url(icons/wmv.gif) no-repeat 0 0; }
