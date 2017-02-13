@@ -68,9 +68,8 @@ body>#footer { position: fixed; }
 #footer #city { float: left; }
 
 /* tabs */
-#pages h2.title { position: absolute; top: 180px; left: 0; margin: 0 10px; padding: 5px 2px; letter-spacing: 1px; width: 240px; z-index: 2; font-size: 110%; outline: none; display: block; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; }
-#pages #page_2 h2.title { left: 265px; }
-#pages #page_3 h2.title { left: 530px; }
+#pages h2.title { position: absolute; top: 180px; left: 0; margin: 0 10px; padding: 5px 2px; letter-spacing: 1px; width: 360px; z-index: 2; font-size: 110%; outline: none; display: block; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; }
+#pages #page_2 h2.title { left: 395px; }
 #pages h2.title.current { color: #009ADE; background: #FFFFFF; border: 1px solid #77BFF5; }
 #pages h2.title:hover, #pages h2.title.hover { color: #FFFFFF; background: #77BFF5; }
 
