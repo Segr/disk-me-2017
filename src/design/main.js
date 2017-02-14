@@ -16,10 +16,14 @@ $q(document).ready(function($){
  	$q("div.page").tabs("div.page div.menu", {
 		tabs:  'h3.title'
 	});
-	$q("#pages .title").hover(
-		function() { $(this).addClass("hover"); },
-		function() { $(this).removeClass("hover"); }
-		);
+	$q("#pages .title").hover( function() {
+		$(this).addClass("hover");
+	}, function() {
+		$(this).removeClass("hover");
+	});
+	$q("#pages .title").click( function() {
+		window.location.hash = $q(this).parent().attr('id');
+	});
 	$q("a.runme").click(function() {
 		$file = $(this).attr("href");
 		$file = $file.split('/').join('\\');
