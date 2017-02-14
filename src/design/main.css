@@ -51,6 +51,12 @@ h1, h2, h3, h4, h5, h6 { color: #009ADE;}
 	background: #FFFFFF url(header.png) no-repeat 0 0; 
 	z-index: 1;
 	}
+#header .in {
+	display: block;
+	position: absolute; top: 0; right: 0;
+	width: 180px;
+	height: 160px;
+}
 #pages { 
 	width: 100%; overflow: hidden;
 	margin: 200px 0 40px 0;
